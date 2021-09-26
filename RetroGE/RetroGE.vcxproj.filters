@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="RetroGE">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="RetroGE\RetroGE Source Files">
+      <UniqueIdentifier>{9eacb613-28cb-4fa7-a8b9-ddecef584447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\RetroGE Headers">
+      <UniqueIdentifier>{3394ab36-cbf8-4d0a-8524-f9eb7b34cd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\ODS">
+      <UniqueIdentifier>{02cda1ea-f549-47be-a8a8-90d875ea74f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\ODS\ODS Header Files">
+      <UniqueIdentifier>{8548f6e1-806a-418d-a7ae-bb204e63de4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\ODS\ODS Source Files">
+      <UniqueIdentifier>{ff04f557-9b2a-4792-b768-5745bf655784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\Demos">
+      <UniqueIdentifier>{5c217011-5a95-4118-a818-e1847c0bde17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\Demos\graphics">
+      <UniqueIdentifier>{52db0896-6b33-4733-985e-8d51012c1aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\Demos\graphics\sprites">
+      <UniqueIdentifier>{31bbdede-5a4c-400f-bc58-56d9b59cb768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\Demos\graphics\primitives">
+      <UniqueIdentifier>{c04399c1-00b7-4498-9cc1-1b0024dbd79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RetroGE\Demos\graphics\pixels">
+      <UniqueIdentifier>{f07af04e-678f-4408-a8ba-d039a8525083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rge.c">
+      <Filter>RetroGE\RetroGE Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rge_palettes.c">
+      <Filter>RetroGE\RetroGE Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rge_string.c">
+      <Filter>RetroGE\RetroGE Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rge_utils.c">
+      <Filter>RetroGE\RetroGE Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ods_arraystack.c">
+      <Filter>RetroGE\ODS\ODS Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ods_chainedhashtable.c">
+      <Filter>RetroGE\ODS\ODS Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ods_dllist.c">
+      <Filter>RetroGE\ODS\ODS Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\graphics\primitives\primitives_example_scene.c">
+      <Filter>RetroGE\Demos\graphics\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\main.c">
+      <Filter>RetroGE\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\graphics\pixels\pixels_example_scene.c">
+      <Filter>RetroGE\Demos\graphics\pixels</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\graphics\sprites\sprites_example_scene.c">
+      <Filter>RetroGE\Demos\graphics\sprites</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rge.h">
+      <Filter>RetroGE\RetroGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rge_palettes.h">
+      <Filter>RetroGE\RetroGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rge_string.h">
+      <Filter>RetroGE\RetroGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rge_utils.h">
+      <Filter>RetroGE\RetroGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ods_iterator.h">
+      <Filter>RetroGE\ODS\ODS Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ods_arraystack.h">
+      <Filter>RetroGE\ODS\ODS Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ods_dllist.h">
+      <Filter>RetroGE\ODS\ODS Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ods_chainedhashtable.h">
+      <Filter>RetroGE\ODS\ODS Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\graphics\primitives\primitives_example_scene.h">
+      <Filter>RetroGE\Demos\graphics\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\graphics\pixels\pixels_example_scene.h">
+      <Filter>RetroGE\Demos\graphics\pixels</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\graphics\sprites\sprites_example_scene.h">
+      <Filter>RetroGE\Demos\graphics\sprites</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Allegro_4.4.2_Starter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

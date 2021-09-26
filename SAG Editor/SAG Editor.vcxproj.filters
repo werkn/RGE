@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SAG Editor">
+      <UniqueIdentifier>{2d867f5d-c3f7-4263-90f2-56eff501ee78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAG Editor\Sprite Editor">
+      <UniqueIdentifier>{2c7a7600-f90f-4923-a8f5-2a471429600a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RGE References">
+      <UniqueIdentifier>{c3a57a35-87c6-42a4-8f2c-6ffdccca7114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RGE References\ODS">
+      <UniqueIdentifier>{e6a6960a-e0ca-43eb-a6f8-ab6a6193ca98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RGE References\RGE Headers">
+      <UniqueIdentifier>{e01a69e5-1c74-45c1-ae77-550d837fa569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RGE References\RGE Source">
+      <UniqueIdentifier>{fd1c5f78-8a67-47c9-892c-9e2b01a1af49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAG Editor\Editor Core">
+      <UniqueIdentifier>{b62c4484-46db-4355-9651-eb92b6bd77f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>SAG Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite Editor\sprite_editor_scene.c">
+      <Filter>SAG Editor\Sprite Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\ods_arraystack.c">
+      <Filter>RGE References\ODS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\ods_chainedhashtable.c">
+      <Filter>RGE References\ODS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\ods_dllist.c">
+      <Filter>RGE References\ODS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\rge.c">
+      <Filter>RGE References\RGE Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\rge_palettes.c">
+      <Filter>RGE References\RGE Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\rge_string.c">
+      <Filter>RGE References\RGE Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RetroGE\rge_utils.c">
+      <Filter>RGE References\RGE Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sag_core.c">
+      <Filter>SAG Editor\Editor Core</Filter>
+    </ClCompile>
+    <ClCompile Include="sag_editor_menu_scene.c">
+      <Filter>SAG Editor\Editor Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sprite Editor\sprite_editor_scene.h">
+      <Filter>SAG Editor\Sprite Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\ods_arraystack.h">
+      <Filter>RGE References\ODS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\ods_chainedhashtable.h">
+      <Filter>RGE References\ODS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\ods_dllist.h">
+      <Filter>RGE References\ODS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\ods_iterator.h">
+      <Filter>RGE References\ODS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\rge.h">
+      <Filter>RGE References\RGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\rge_palettes.h">
+      <Filter>RGE References\RGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\rge_string.h">
+      <Filter>RGE References\RGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RetroGE\rge_utils.h">
+      <Filter>RGE References\RGE Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sag_core.h">
+      <Filter>SAG Editor\Editor Core</Filter>
+    </ClInclude>
+    <ClInclude Include="sag_editor_menu_scene.h">
+      <Filter>SAG Editor\Editor Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
