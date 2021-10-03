@@ -11,7 +11,7 @@ int main()
     //DO NOT PUT ANY CODE BEFORE THIS LINE
 
     //add starting scene
-    rge_scene_manager.add_scene(scene_pixels_example_init());
+    rge_scene_manager.add_scene(scene_primitives_example_init());
 
     while (!rge_shutdown) {
 

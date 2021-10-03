@@ -1,7 +1,7 @@
 #ifndef __2D_RGE_EDITOR_MENU_SCENE
 #define __2D_RGE_EDITOR_MENU_SCENE
 
-#include "../RetroGE/RetroGE/rge.h"
+#include "./RetroGE/rge.h"
 #include "./sag_core.h"
 
 typedef enum sag_editor_menu_mode {

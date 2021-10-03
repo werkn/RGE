@@ -1,7 +1,7 @@
 #ifndef __2D_RGE_SPRITE_EDITOR_SCENE
 #define __2D_RGE_SPRITE_EDITOR_SCENE
 
-#include "../RetroGE/RetroGE/rge.h"
+#include "./RetroGE/rge.h"
 #include "../sag_core.h"
 
 #define SAG_SPRITE_ID_X 135

@@ -1,7 +1,7 @@
 #ifndef __2D_RGE_SAG_EDITOR_CORE
 #define __2D_RGE_SAG_EDITOR_CORE
 
-#include "../RetroGE/RetroGE/rge.h"
+#include "./RetroGE/rge.h"
 
 //where we export and import from
 #define SAG_ASSETS_PATH "./Assets/"
